@@ -37,7 +37,6 @@ void ABGP_PlayerCharacter::OverlapOn(AActor* OwnerActor, AActor* OtherActor)
 	{
 		InteractiveActors.Add(OtherActor);
 	};
-
 };
 
 void ABGP_PlayerCharacter::OverlapOff(AActor* OwnerActor, AActor* OtherActor) 
